@@ -1,0 +1,80 @@
+" Administrator, what would you like to do?\n"+
+" 1. Create tables\n"+
+" 2. Delete tables\n"+
+" 3. Load data\n"+
+" 4. Check data\n"+
+" 5. Go back\n"+
+" Please enter [1-5].\n"+
+" 1\n"+
+" Processing...Done! Tables are created!\n"+
+"\n"+
+"\n"+
+"\n"+
+"\n"+
+"\n"+
+"Passenger, what would you like to do?\n"+
+"1. Request a ride\n"+
+"2. Check trip records\n"+
+"3. Rate a trip\n"+
+"4. Go back\n"+
+"Please enter [1-4].\n"+
+"1\n"+
+"Please enter your ID.\n"+
+"1\n"+
+"Please enter the number of passengers.\n"+
+"4\n"+
+"Please enter the earlist model year. (Press enter to skip)\n"+
+"2015\n"+
+"Please enter the model. (Press enter to skip)\n"+
+"toyota\n"+
+"Your request is placed. 14 drivers are able to take the request.\n"+
+"\n"+
+"\n"+
+"\n"+
+"\n"+
+"\n"+
+"\n"+
+"\n"+
+"Driver, what would you like to do?\n"+
+"1. Take a request\n"+
+"2. Finish a trip\n"+
+"3. Check driver rating\n"+
+"4. Go back\n"+
+"Please enter [1-4].\n"+
+"1\n"+
+"Please enter your ID.\n"+
+"20\n"+
+"Request ID, Passenger name, Passengers \n"+
+"1, Audrey Fu, 4\n"+
+"Please enter the request ID.\n"+
+"1\n"+
+"Trip ID, Passenger name, Start\n"+
+"\n"+
+"\n"+
+"Welcome! Who are you?\n"+
+"1. An administrator\n"+
+"2. A passenger\n"+
+"3. A driver\n"+
+"4. None of the above\n"+
+"Please enter [1-4].\n"+
+"5\n"+
+"[ERROR] Invalid input.\n"+
+"Please enter [1-4].\n"+
+"2\n"+
+"Passenger, what would you like to do?\n"+
+"1. Request a ride\n"+
+"2. Check trip records\n"+
+"3. Rate a trip\n"+
+"4. Go back\n"+
+"Please enter [1-4].\n"+
+"1\n"+
+"Please enter your ID.\n"+
+"501\n"+
+"Please enter the number of passengers.\n"+
+"3\n"+
+"Please enter the earlist model year. (Press enter to skip)\n"+
+"\n"+
+"Please enter the model. (Press enter to skip) \n"+
+"\n"+
+"ERROR Passe •-r not found.\n"+
+"\n"+
