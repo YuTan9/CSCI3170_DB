@@ -8,6 +8,7 @@ Welcome! Who are you?
 Please enter [1-4].
 ```
 User can enter different modes.
+===================
 
 1. Admin mode:
 ```
