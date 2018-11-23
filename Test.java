@@ -3,6 +3,7 @@ import java.lang.*;
 import java.io.*; 
 import java.text.SimpleDateFormat;
 import java.text.*;
+import java.util.Scanner;
 /**
  *
  * @author yutang
@@ -126,17 +127,46 @@ public class Test {
         //   System.out.println("Unparseable using " + ft); 
         // }
 
-        String checkDV = "SELECT COUNT(*) FROM Drivers_Vehicles;";
-       
-        try{
-            System.out.print("Processing...");
-            Connection conn=  LoadDriver();
-            Statement stmt = conn.createStatement();
-            ResultSet rsDV = stmt.executeQuery(checkDV);
-            rsDV.next();
-            System.out.println("Drivers_Vehicles: " + rsDV.getString(1));
-        }catch(Exception e){System.out.println(e);}
+        // String checkDV = "SELECT COUNT(*) FROM Drivers_Vehicles;";
+        // try{
+        //     System.out.print("Processing...");
+        //     Connection conn=  LoadDriver();
+        //     Statement stmt = conn.createStatement();
+        //     ResultSet rsDV = stmt.executeQuery(checkDV);
+        //     rsDV.next();
+        //     System.out.println("Drivers_Vehicles: " + rsDV.getString(1));
+        // }catch(Exception e){System.out.println(e);}
+        // Scanner scan = new Scanner(System.in);
+        // String pid = scan.nextLine();
+        // String modelyear = scan.nextLine();
+        // String x = new String();
+        // if(modelyear.equals(""))
+        //     x = 
+        // try
+        // {
+        //     Connection conn=  LoadDriver();
+
+        //     Statement statement = conn.createStatement();
         
+        //     ResultSet rs = statement.executeQuery("select id from t where id = -1;");
+            
+        //     System.out.println(rs.isBeforeFirst());
+
+
+        // }
+        // catch(Exception e){System.out.println(e);}
+        
+        // int[][] arr= new int[1][1];
+        // if(arr[0][0] == (int)null)
+        //     System.out.println("empty.");
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        Timestamp t = Timestamp.valueOf("2018-11-23 15:00:00");
+        System.out.println(timestamp);
+        System.out.println(t);
+        System.out.println((t.getTime() - timestamp.getTime())/60000);
+        // Scanner s = new Scanner(System.in);
+        // String t  = s.next();
+        // System.out.println(t);
     }
 }
 
