@@ -8,9 +8,9 @@ Welcome! Who are you?
 Please enter [1-4].
 ```
 User can enter different modes.
-===================
+-
 
-1. Admin mode:
+### 1. Admin mode: ###
 ```
 Administrator, what would you like to do?
  1. Create tables
@@ -22,7 +22,7 @@ Please enter [1-5].
 ```
 Administrator can create, delete, insert tuples by reading files, and check the number of data in the database.
 
-2. Passenger mode:
+### 2. Passenger mode: ###
 ```
 Passenger, what would you like to do?
 1. Request a ride
@@ -33,7 +33,7 @@ Please enter [1-4].
 ```
 Passenger can request, check the trip record in specified time interval, and rate a trip.
 
-3. Driver mode:
+### 3. Driver mode: ###
 ```
 Driver, what would you like to do?
 1. Take a request
